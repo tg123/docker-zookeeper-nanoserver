@@ -1,7 +1,7 @@
 
 setlocal
 
-set distro_name=zookeeper-3.4.9
+set distro_name=zookeeper-3.4.11
 
 powershell .\downloadzk.ps1 %distro_name%
 
