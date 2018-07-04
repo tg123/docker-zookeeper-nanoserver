@@ -2,7 +2,7 @@ FROM farmer1992/openjdk-ojdkbuild-windowsnano:latest
 
 MAINTAINER Boshi Lian <farmer1992@gmail.com>
 
-ARG DISTRO_NAME=zookeeper-3.4.11
+ARG DISTRO_NAME=zookeeper-3.4.12
 
 ADD $DISTRO_NAME.tar.gz 'C:\\'
 
